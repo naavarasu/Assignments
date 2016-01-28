@@ -20,7 +20,7 @@ int convert(int d_no,int base)
 	}
 	for(j=--i;j>=0;j--)
 	{
-		if(r[j]<=10)
+		if(r[j]<10)
 		{
 			printf("%c",r[j]+'0');
 		}
